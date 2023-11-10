@@ -10,6 +10,11 @@
       "StackName": "amplify-miniapp-dev-181204",
       "StackId": "arn:aws:cloudformation:ap-south-1:022338546441:stack/amplify-miniapp-dev-181204/8f7fe5c0-7fc6-11ee-b4a1-0adc75d08048",
       "AmplifyAppId": "dj4dikkupmxrx"
+    },
+    "categories": {
+      "auth": {
+        "miniapp43c74526": {}
+      }
     }
   }
 }
