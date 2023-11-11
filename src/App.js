@@ -6,15 +6,15 @@ import {
 } from "react-router-dom";
 import Users from './Items/User';
 import logo from "./logo.svg";
-import "@aws-amplify/ui-react/styles.css";
-import {
-  withAuthenticator,
-  Button,
-  Heading,
-  Image,
-  View,
-  Card,
-} from "@aws-amplify/ui-react";
+// import "@aws-amplify/ui-react/styles.css";
+// import {
+//   withAuthenticator,
+//   Button,
+//   Heading,
+//   Image,
+//   View,
+//   Card,
+// } from "@aws-amplify/ui-react";
 
 function Apps({ signOut }) {
   return (
@@ -28,25 +28,25 @@ function Apps({ signOut }) {
   );
 }
 
-function App() {
+// function App() {
   
 
-  const router = createBrowserRouter([
+//   const router = createBrowserRouter([
 
-    {
-      path: "/",
-      element: <Users />,
-    },
-  ]);
+//     {
+//       path: "/",
+//       element: <Users />,
+//     },
+//   ]);
 
  
-  return (
-    <div className="App">
-      <RouterProvider router={router} />
-    </div>
-  );
-}
-export default withAuthenticator(Apps);
+//   return (
+//     <div className="App">
+//       <RouterProvider router={router} />
+//     </div>
+//   );
+// }
+// export default withAuthenticator(Apps);
 
 
-export {App};
+export default Apps;
